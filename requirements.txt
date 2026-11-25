@@ -1,0 +1,8 @@
+# Versions match the environment used to train and save wine_quality_model.pkl
+scikit-learn==1.6.1
+imbalanced-learn==0.14.2
+joblib==1.6.0
+numpy==2.1.3
+pandas>=2.0
+matplotlib>=3.7
+jupyter
