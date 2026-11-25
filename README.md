@@ -39,8 +39,7 @@ Final test classification report:
 ```
 .
 ├── Red_Wine_Quality_Prediction.ipynb
-├── data/
-│   └── winequality-red.csv      # not tracked, download separately
+├── winequality-red.csv      # not tracked, download separately
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -86,7 +85,3 @@ print(dict(zip(model.classes_, model.predict_proba(wine)[0].round(3))))
 **Notes:**
 - Use the library versions in `requirements.txt`. A pickle saved with one scikit-learn version may fail or behave differently under another.
 - Only load pickle files you trust, because loading one can execute arbitrary code.
-
-## Dataset citation
-
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. *Modeling wine preferences by data mining from physicochemical properties.* Decision Support Systems, 47(4):547-553, 2009.
